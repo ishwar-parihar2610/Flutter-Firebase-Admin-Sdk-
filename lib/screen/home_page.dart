@@ -14,9 +14,17 @@ class _HomePageState extends State<HomePage> {
   String userName = "";
   String userEmail = "";
 
+  int number=40;
+
+
   @override
   void initState() {
-    // TODO: implement initState
+   String srt =number.toString();
+   // int length=srt.length;
+   //  String a=srt[length];
+   //  String b=srt[0];
+   //  String finalValue=b+a;
+
     super.initState();
   }
 
